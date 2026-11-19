@@ -15,12 +15,13 @@ if ! command -v curl >/dev/null 2>&1; then
 fi
 
 artifacts=(
-    "clibs/kdbcapie.so-linux"
-    "clibs/kdbcapie.so-mac"
-    "clibs/libl_parquet.so-linux"
-    "clibs/libl_parquet.so-mac"
+    "clibs/kdbcapi-linux.so"
+    "clibs/kdbcapi-mac.so"
+    "clibs/libl_parquet-linux.so"
+    "clibs/libl_parquet-mac.so"
     "lin-avx2/l_l64"
     "lin-avx512/l_l64"
+    "lin-oxide/l_l64"
     "osx-arm64/l_m64"
 )
 
